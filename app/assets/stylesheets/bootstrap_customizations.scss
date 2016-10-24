@@ -18,18 +18,24 @@
 //
 // Grayscale and brand colors for use across Bootstrap.
 
-$gray-dark:                 #26A65B;
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+$gray-dark:                 #29252C;
 $gray:                      #55595c;
 $gray-light:                #818a91;
 $gray-lighter:              #eceeef;
 $gray-lightest:             #f7f7f9;
 
-$brand-primary:             #0275d8;
+$brand-primary:             #B83B5E;
 $brand-success:             #5cb85c;
 $brand-info:                #5bc0de;
 $brand-warning:             #f0ad4e;
 $brand-danger:              #d9534f;
 $brand-inverse:             $gray-dark;
+
+.btn-secondary {
+	background-color: #ce7c93 !important;
+}
 
 
 // Options
@@ -54,7 +60,7 @@ $border-width: 1px;
 //
 // Settings for the `<body>` element.
 
-$body-bg:    #fff;
+$body-bg:    #C9D6DF;
 $body-color: $gray-dark;
 
 
@@ -62,7 +68,7 @@ $body-color: $gray-dark;
 //
 // Style anchor elements.
 
-$link-color:            $brand-primary;
+$link-color:            #B83B5E;
 $link-decoration:       none;
 $link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: underline;
@@ -72,8 +78,8 @@ $link-hover-decoration: underline;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$font-family-serif:      Georgia, "Times New Roman", Times, serif;
+$font-family-sans-serif: 'Dosis', "Calibri", BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-serif:      "Times New Roman", Times, serif;
 $font-family-base:       $font-family-sans-serif;
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
@@ -120,7 +126,7 @@ $navbar-padding-y:                  ($spacer / 2);
 $navbar-brand-padding-y:            .25rem;
 
 $navbar-dark-color:                 rgba(255,255,255,.5);
-$navbar-dark-hover-color:           rgba(255,255,255,.75);
+$navbar-dark-hover-color:           #B83B5E;
 $navbar-dark-active-color:          rgba(255,255,255,1);
 $navbar-dark-disabled-color:        rgba(255,255,255,.25);
 
@@ -133,4 +139,4 @@ $navbar-light-disabled-color:       rgba(0,0,0,.15);
 // Jumbotron
 
 $jumbotron-padding:              2rem;
-$jumbotron-bg:                   $gray-lighter;
+$jumbotron-bg:                   #D8E9F0;
